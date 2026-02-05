@@ -3,20 +3,90 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Girl's trip travel planner.</title>
+    <title><!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Elements Notes</title>
+  </head>
+
+  <body>
+    <h1>HTML Form Elements</h1>
+    <p>
+      Forms are used to collect user information such as names, emails,
+      passwords, and feedback.
+    </p>
+
+    <h2>Commonly used Form Elements.</h2>
+
+    <form>
+      <!-- Text Input -->
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" placeholder="Enter your name" />
+      <br /><br />
+
+      <!-- Email Input -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="example@gmail.com" />
+      <br /><br />
+
+      <!-- Password Input -->
+      <label for="pass">Password:</label>
+      <input type="password" id="pass" />
+      <br /><br />
+
+      <!-- Phone Input -->
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" placeholder="+254..." />
+      <br /><br />
+
+      <!-- Dropdown Menu -->
+      <label for="course">Choose Your Course:</label>
+      <select id="course">
+        <option value="software">Software Development</option>
+        <option value="design">Web Design</option>
+        <option value="networking">Networking</option>
+        <option value="data">Data Science</option>
+      </select>
+      <br /><br />
+
+      <!-- Radio Buttons -->
+      <p>Select Gender:</p>
+      <input type="radio" name="gender" value="male" /> Male
+      <input type="radio" name="gender" value="female" /> Female
+      <br /><br />
+
+      <!-- Textarea -->
+      <label for="message">Message:</label><br />
+      <textarea id="message" rows="4" cols="25" placeholder="Type here..."></textarea>
+      <br /><br />
+
+      <!-- Date Input -->
+      <label for="date">Date of Submission:</label>
+      <input type="date" id="date" />
+      <br /><br />
+
+      <!-- Buttons -->
+      <input type="submit" value="Submit Form" />
+      <input type="reset" value="Clear" />
+    </form>
+  </body>
+</html>
+</title>
   </head>
   <body>
     <form>
-      <label for="destination">Country</label>
+      <label for="destination"></label>
       <input type="text" id="destination" name="destination" required />
       <br /><br />
-      <label for="dates">Travel Dates</label>
+      <label for="dates"></label>
       <input type="text" id="dates" name="dates" required />
       <br /><br />
-      <label for="budget">Estimated Budget:</label>
+      <label for="budget">:</label>
       <input type="number" id="budget" name="budget" required />
       <br /><br />
-      <button type="submit">Plan Trip</button>
+      <button type="submit"></button>
     </form>
   </body>
 </html>
